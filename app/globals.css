@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap');
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  direction: rtl;
+  lang: fa;
+}
+
+body {
+  font-family: Vazirmatn, system-ui, -apple-system, Segoe UI, Roboto, Noto Naskh Arabic, sans-serif;
+  background-color: #0b0f14;
+  color: #e6edf3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar subtle */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #202b36;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f14;
+}
